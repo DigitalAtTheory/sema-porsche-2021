@@ -4,9 +4,9 @@ export default function DigitalThankYou() {
   return (
     <div className="text-white text-center px-4 font-light mt-6">
       <Image
-        src="/corvette-confirmation-headline.png"
+        src="/porsche-confirmation-headline.png"
         width="1170px"
-        height="365px"
+        height="472px"
         priority
       />
       <p className="my-6">
@@ -17,7 +17,7 @@ export default function DigitalThankYou() {
       </p>
       <p>
         Thanks for being unconventional, and stay tuned for more exclusive
-        content from us and our partners like Hoonigan in the near future.
+        content from us and our partners like Luftgekühlt in the near future.
       </p>
     </div>
   );

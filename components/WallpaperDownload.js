@@ -7,7 +7,7 @@ export default function WallpaperDownload({ wallpaperLink }) {
       <hr className="text-white my-16 w-1/2 mx-auto" />
       <h2 className="text-white mb-6 text-4xl">Download the Wallpaper</h2>
       <Image
-        src="/wallpaper-phone-corvette.png"
+        src="/wallpaper-phone-porsche.png"
         width="1170px"
         height="1310px"
       />
