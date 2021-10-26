@@ -19,6 +19,7 @@ export default function DigitalThankYouPage() {
         height="278px"
         priority
         loading="eager"
+        alt=""
       />
       <div className="max-w-3xl mx-auto">
         <DigitalThankYou />

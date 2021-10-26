@@ -8,6 +8,7 @@ export default function DigitalThankYou() {
         width="1170px"
         height="472px"
         priority
+        alt="Porsche Sketch with text You're In"
       />
       <p className="my-6">
         Even though we missed you in-person, we wanted to leave you with a

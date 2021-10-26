@@ -7,7 +7,10 @@ export default function DigitalWallpapers() {
         <title>Wallpapers - Unconventionally Driven</title>
       </Head>
       <h1 className="text-gray-50 mb-8 text-4xl">Download your wallpaper</h1>
-      <img src="/Digital-2021-SEMA-Mobile-Wallpaper-PORSCHE.jpg" />
+      <img
+        src="/Digital-2021-SEMA-Mobile-Wallpaper-PORSCHE.jpg"
+        alt="Porsche Mobile Wallpaper"
+      />
     </div>
   );
 }

@@ -8,6 +8,7 @@ export default function ThankYouContent() {
         width="1170px"
         height="472px"
         priority
+        alt="Porsche Sketch with text You're In"
       />
       <p className="my-6">
         You came, you saw, and you conquered 2021. Prep for 2022 by snagging the
