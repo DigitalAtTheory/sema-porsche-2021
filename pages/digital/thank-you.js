@@ -4,6 +4,7 @@ import Image from "next/image";
 import Footer from "../../components/Footer";
 import WallpaperDownload from "../../components/WallpaperDownload";
 import DigitalThankYou from "../../components/digital/DigitalThankYou";
+import topLight from "../../public/top-light-leak.png";
 
 export default function DigitalThankYouPage() {
   return (
@@ -13,9 +14,8 @@ export default function DigitalThankYouPage() {
       </Head>
       <Lockup />
       <Image
-        src="/top-light-leak.png"
-        width="3634px"
-        height="278px"
+        src={topLight}
+        placeholder="blur"
         priority
         loading="eager"
         alt=""

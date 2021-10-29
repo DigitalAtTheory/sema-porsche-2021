@@ -4,6 +4,7 @@ import Lockup from "../components/Lockup";
 import ThankYouContent from "../components/ThankYouContent";
 import Image from "next/image";
 import WallpaperDownload from "../components/WallpaperDownload";
+import topLight from "../public/top-light-leak.png";
 
 export default function ThankYouPage() {
   return (
@@ -13,9 +14,8 @@ export default function ThankYouPage() {
       </Head>
       <Lockup />
       <Image
-        src="/top-light-leak.png"
-        width="3634px"
-        height="278px"
+        src={topLight}
+        placeholder="blur"
         priority
         loading="eager"
         alt=""

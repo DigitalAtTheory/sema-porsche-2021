@@ -1,13 +1,14 @@
 import Image from "next/image";
+import confImage from "../../public/porsche-confirmation-headline.png";
 
 export default function DigitalThankYou() {
   return (
     <div className="text-white text-center px-4 font-light mt-6">
       <Image
-        src="/porsche-confirmation-headline.png"
-        width="1170px"
-        height="472px"
+        src={confImage}
+        placeholder="blur"
         priority
+        loading="eager"
         alt="Porsche Sketch with text You're In"
       />
       <p className="my-6">
