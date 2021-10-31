@@ -13,6 +13,9 @@ export default function PlayVideo({ handleDonePlaying }) {
           youtube: {
             playerVars: {
               controls: 1,
+              autoplay: 1,
+              modestbranding: 1,
+              playsinline: 1,
             },
           },
         }}
