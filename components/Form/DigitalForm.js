@@ -123,7 +123,7 @@ export default function Form() {
     }
 
     if (!error) {
-      router.push("/thank-you");
+      router.push("/virtual/thank-you");
     }
 
     console.log(formData);
