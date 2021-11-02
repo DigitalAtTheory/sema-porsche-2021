@@ -8,7 +8,7 @@ export default function PlayVideo({ handleDonePlaying }) {
       className={`${styles.videoContainer} fixed top-0 h-screen w-full bg-black z-50 text-center`}
     >
       <ReactPlayer
-        url="https://youtu.be/Hlp_-JbbH6Y"
+        url="https://youtu.be/xHb6GylI2zk"
         config={{
           youtube: {
             playerVars: {
